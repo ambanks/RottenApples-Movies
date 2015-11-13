@@ -7,7 +7,7 @@ var methodOverride = require('method-override');
 // configuration ===========================================
     
 // config files
-var db = require('./config/db');
+var db = require('mongodb://<dbuser>:<dbpassword>@ds053194.mongolab.com:53194/rottenapples');
 
 // set our port
 var port = process.env.PORT || 3000; 
